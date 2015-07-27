@@ -23,7 +23,7 @@
     [super viewDidLoad];
      arr = [[NSMutableArray alloc]initWithObjects:@"1",@"2",@"3",@"4",@"5", nil];
     
-    // Todisplay data in table view 
+    // Todisplay data in table view table
     
    
     
