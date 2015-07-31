@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A035528C-7240-4A0A-B8F4-C185EB5EE696</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PullToRefresh</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D9F2F6D65DC955E1D4F7DF187CB1F7445E3DF91</key>
+		<string>https://github.com/KoteswarChowdary/IOS-O-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PullToRefresh.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D9F2F6D65DC955E1D4F7DF187CB1F7445E3DF91</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KoteswarChowdary/IOS-O-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D9F2F6D65DC955E1D4F7DF187CB1F7445E3DF91</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D9F2F6D65DC955E1D4F7DF187CB1F7445E3DF91</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PullToRefresh</string>
+		</dict>
+	</array>
+</dict>
+</plist>

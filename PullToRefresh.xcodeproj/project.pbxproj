@@ -15,6 +15,9 @@
 		18D793D21B5FAD6B00454AE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D793D01B5FAD6B00454AE6 /* LaunchScreen.xib */; };
 		18D793DE1B5FAD6B00454AE6 /* PullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D793DD1B5FAD6B00454AE6 /* PullToRefreshTests.m */; };
 		18D793E91B5FAE2600454AE6 /* CustomPullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D793E81B5FAE2600454AE6 /* CustomPullTableViewController.m */; };
+		18DB19A61B6B3A7600DC5F5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB19A51B6B3A7600DC5F5E /* CoreLocation.framework */; };
+		18DB19A91B6B3AA900DC5F5E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DB19A81B6B3AA900DC5F5E /* MapViewController.m */; };
+		18DB19AB1B6B447B00DC5F5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB19AA1B6B447B00DC5F5E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,10 @@
 		18D793DD1B5FAD6B00454AE6 /* PullToRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTests.m; sourceTree = "<group>"; };
 		18D793E71B5FAE2600454AE6 /* CustomPullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPullTableViewController.h; sourceTree = "<group>"; };
 		18D793E81B5FAE2600454AE6 /* CustomPullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPullTableViewController.m; sourceTree = "<group>"; };
+		18DB19A51B6B3A7600DC5F5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18DB19A71B6B3AA900DC5F5E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		18DB19A81B6B3AA900DC5F5E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		18DB19AA1B6B447B00DC5F5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DB19AB1B6B447B00DC5F5E /* MapKit.framework in Frameworks */,
+				18DB19A61B6B3A7600DC5F5E /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,8 @@
 		18D793B51B5FAD6B00454AE6 = {
 			isa = PBXGroup;
 			children = (
+				18DB19AA1B6B447B00DC5F5E /* MapKit.framework */,
+				18DB19A51B6B3A7600DC5F5E /* CoreLocation.framework */,
 				18D793C01B5FAD6B00454AE6 /* PullToRefresh */,
 				18D793DA1B5FAD6B00454AE6 /* PullToRefreshTests */,
 				18D793BF1B5FAD6B00454AE6 /* Products */,
@@ -94,6 +105,8 @@
 				18D793C11B5FAD6B00454AE6 /* Supporting Files */,
 				18D793E71B5FAE2600454AE6 /* CustomPullTableViewController.h */,
 				18D793E81B5FAE2600454AE6 /* CustomPullTableViewController.m */,
+				18DB19A71B6B3AA900DC5F5E /* MapViewController.h */,
+				18DB19A81B6B3AA900DC5F5E /* MapViewController.m */,
 			);
 			path = PullToRefresh;
 			sourceTree = "<group>";
@@ -226,6 +239,7 @@
 			files = (
 				18D793CA1B5FAD6B00454AE6 /* ViewController.m in Sources */,
 				18D793E91B5FAE2600454AE6 /* CustomPullTableViewController.m in Sources */,
+				18DB19A91B6B3AA900DC5F5E /* MapViewController.m in Sources */,
 				18D793C71B5FAD6B00454AE6 /* AppDelegate.m in Sources */,
 				18D793C41B5FAD6B00454AE6 /* main.m in Sources */,
 			);
@@ -418,6 +432,7 @@
 				18D793E31B5FAD6B00454AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D793E41B5FAD6B00454AE6 /* Build configuration list for PBXNativeTarget "PullToRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				18D793E61B5FAD6B00454AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
